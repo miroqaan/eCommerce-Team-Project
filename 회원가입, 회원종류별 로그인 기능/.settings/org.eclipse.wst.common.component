@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="회원가입, 회원종류별 로그인 기능">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <property name="java-output-path" value="/회원가입, 회원종류별 로그인 기능/build/classes"/>
+        <property name="context-root" value="login"/>
+    </wb-module>
+</project-modules>
