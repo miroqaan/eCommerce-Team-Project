@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+function f() {	
+   document.cookie = 'id'+"="+document.form.id.value; 
+   }
+   
+</script>
+<form action="main1.jsp" name="form" onsubmit="f()" method="post">
+로그인 할 아이디:
+<input type="text" name='id' >
+<input type="submit" value="로 로그인 하기">
+</form>
+
+
+
+</body>
+</html>
